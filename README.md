@@ -13,10 +13,10 @@ My arch linux dotfiles. Very TODO
 # Dependencies
 AUR helper needed for some packages
 ```fish
-paru -S hyprland fish fastfetch kitty neovim rofi xdg-desktop-portal-hyprland ags-hyprpanel-git flameshot clipse pipewire pipewire-alsa pipewire-jack pipewire-pulse swww
+paru -S hyprland fish fastfetch kitty rofi xdg-desktop-portal-hyprland ags-hyprpanel-git flameshot clipse pipewire pipewire-alsa pipewire-jack pipewire-pulse swww brightnessctl
 ```
 
 Some other apps I use:
 ```fish
-paru -S zoxide vesktop-bin thunar thunar-volman tmux obsidian ly lite-lx go fzf
+paru -S zoxide vesktop-bin thunar thunar-volman tmux obsidian ly lite-lx go fzf neofetch
 ```
