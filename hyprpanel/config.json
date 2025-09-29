@@ -7,17 +7,17 @@
   "theme.bar.floating": false,
   "theme.bar.location": "bottom",
   "theme.bar.buttons.enableBorders": false,
-  "theme.bar.buttons.borderSize": "0.1em",
+  "theme.bar.buttons.borderSize": "0.05em",
   "theme.bar.border.location": "none",
-  "theme.bar.enableShadow": false,
+  "theme.bar.enableShadow": true,
   "bar.launcher.autoDetectIcon": true,
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.buttons.workspaces.enableBorder": false,
   "bar.workspaces.monitorSpecific": true,
-  "bar.workspaces.show_numbered": false,
-  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.show_numbered": true,
+  "bar.workspaces.showWsIcons": false,
   "bar.workspaces.show_icons": false,
-  "menus.media.hideAlbum": false,
+  "menus.media.hideAlbum": true,
   "menus.media.hideAuthor": false,
   "theme.osd.enable": true,
   "theme.osd.orientation": "vertical",
@@ -56,15 +56,15 @@
     "0": {
       "left": [
         "dashboard",
-        "workspaces",
-        "windowtitle"
+        "workspaces"
       ],
       "middle": [
         "media"
       ],
       "right": [
         "volume",
-        "network",
+        "microphone",
+        "updates",
         "systray",
         "clock",
         "notifications"
@@ -133,5 +133,16 @@
   "bar.workspaces.workspaceMask": false,
   "theme.bar.menus.menu.notifications.height": "48em",
   "wallpaper.image": "/home/eryk/Pictures/Wallpapers/waterfall.png",
-  "scalingPriority": "gdk"
+  "scalingPriority": "gdk",
+  "theme.bar.menus.popover.scaling": 100,
+  "theme.bar.border.width": "0.15em",
+  "theme.bar.buttons.separator.margins": "0.15em",
+  "theme.bar.buttons.separator.width": "0.5em",
+  "theme.bar.margin_sides": "1em",
+  "theme.bar.margin_top": "0em",
+  "theme.bar.buttons.radius": "0.5em",
+  "bar.workspaces.showApplicationIcons": false,
+  "tear": true,
+  "bar.workspaces.applicationIconOncePerWorkspace": true,
+  "bar.workspaces.showAllActive": true
 }

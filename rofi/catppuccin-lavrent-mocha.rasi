@@ -6,9 +6,9 @@
 
 * {
     base: #1e1e2e;
-    surface0: #313244;
+    surface0: #1e1e2e;
     overlay0: #6c7086;
-    text: #cdd6f4;
+    text: #ffffffff;
 
     mauve: #cba6f7;
     red: #f38ba8;
