@@ -1,0 +1,14 @@
+*
+
+!nvim
+!hypr
+!fastfetch
+!fish
+!fish/config.fish
+!kitty
+!hyprpanel
+!rofi
+!.gitignore
+!hypr/hypridle.conf
+
+hypr/mouse.conf
