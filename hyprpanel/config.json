@@ -9,7 +9,7 @@
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.buttons.borderSize": "0.05em",
   "theme.bar.border.location": "none",
-  "theme.bar.enableShadow": true,
+  "theme.bar.enableShadow": false,
   "bar.launcher.autoDetectIcon": true,
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.buttons.workspaces.enableBorder": false,
@@ -40,12 +40,12 @@
   "menus.power.showLabel": true,
   "theme.matugen": false,
   "theme.bar.transparent": false,
-  "theme.bar.buttons.style": "default",
+  "theme.bar.buttons.style": "split",
   "bar.bluetooth.label": true,
   "bar.network.label": true,
   "bar.battery.label": true,
   "theme.bar.buttons.systray.enableBorder": false,
-  "bar.clock.showIcon": false,
+  "bar.clock.showIcon": true,
   "bar.notifications.show_total": false,
   "bar.notifications.hideCountWhenZero": false,
   "menus.dashboard.controls.enabled": false,
@@ -64,45 +64,16 @@
       "right": [
         "volume",
         "microphone",
-        "updates",
+        "ram",
+        "cpu",
+        "clock",
         "systray",
-        "clock",
-        "notifications"
-      ]
-    },
-    "1": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "2": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
         "notifications"
       ]
     }
   },
   "bar.autoHide": "fullscreen",
-  "bar.customModules.ram.labelType": "percentage",
+  "bar.customModules.ram.labelType": "used/total",
   "theme.bar.scaling": 85,
   "menus.media.displayTime": false,
   "menus.media.displayTimeTooltip": false,
@@ -126,7 +97,7 @@
   "bar.clock.showTime": true,
   "theme.bar.buttons.clock.enableBorder": false,
   "theme.bar.buttons.media.enableBorder": false,
-  "theme.bar.buttons.clock.spacing": "0em",
+  "theme.bar.buttons.clock.spacing": "0.5em",
   "bar.scrollSpeed": 10,
   "bar.workspaces.numbered_active_indicator": "underline",
   "theme.bar.buttons.workspaces.smartHighlight": true,
@@ -144,5 +115,36 @@
   "bar.workspaces.showApplicationIcons": false,
   "tear": true,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
-  "bar.workspaces.showAllActive": true
+  "bar.workspaces.showAllActive": true,
+  "theme.bar.menus.monochrome": false,
+  "theme.matugen_settings.mode": "dark",
+  "theme.bar.buttons.icon_background": "#242438",
+  "menus.power.lowBatteryNotification": true,
+  "theme.bar.buttons.network.enableBorder": false,
+  "theme.bar.opacity": 100,
+  "theme.bar.buttons.monochrome": false,
+  "theme.bar.buttons.notifications.icon_background": "#242438",
+  "theme.bar.buttons.modules.power.icon_background": "#242438",
+  "theme.bar.buttons.modules.microphone.icon_background": "#a6e3a1",
+  "theme.bar.buttons.modules.microphone.icon": "#242438",
+  "theme.bar.menus.menu.volume.background.color": "#11111b",
+  "theme.bar.menus.menu.volume.border.color": "#313244",
+  "theme.bar.buttons.modules.updates.border": "#cba6f7",
+  "theme.bar.buttons.modules.updates.icon_background": "#caa6f7",
+  "theme.bar.buttons.modules.updates.icon": "#242438",
+  "theme.bar.menus.menu.clock.background.color": "#11111b",
+  "theme.bar.buttons.media.icon_background": "#b4befe",
+  "theme.bar.buttons.media.icon": "#313244",
+  "theme.bar.buttons.volume.icon_background": "#eba0ac",
+  "theme.bar.buttons.volume.icon": "#313244",
+  "theme.bar.buttons.clock.icon_background": "#f5c2e7",
+  "theme.bar.buttons.clock.icon": "#313244",
+  "theme.bar.buttons.modules.cpu.icon_background": "#f38ba8",
+  "theme.bar.buttons.modules.cpu.icon": "#242438",
+  "theme.bar.buttons.modules.ram.icon_background": "#f9e2af",
+  "theme.bar.buttons.modules.ram.icon": "#242438",
+  "wallpaper.pywal": false,
+  "bar.customModules.cpu.label": true,
+  "bar.customModules.cpuTemp.unit": "metric",
+  "theme.bar.buttons.windowtitle.enableBorder": false
 }
